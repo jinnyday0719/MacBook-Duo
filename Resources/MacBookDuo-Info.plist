@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleDisplayName</key><string>MacBook Duo</string>
+<key>CFBundleName</key><string>MacBook Duo</string>
+<key>CFBundleExecutable</key><string>MacBookDuo</string>
+<key>CFBundleIdentifier</key><string>io.github.jinnyday0719.macbookduo</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>1.0.0</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>LSMinimumSystemVersion</key><string>13.0</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSScreenCaptureUsageDescription</key>
+<string>MacBook 화면에 접힘 효과를 적용하려면 화면 기록 권한이 필요합니다.</string>
+<key>LSUIElement</key><true/>
+</dict></plist>
