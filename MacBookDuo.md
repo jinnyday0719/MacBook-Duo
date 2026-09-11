@@ -3,8 +3,7 @@
 앱 이름: MacBook Duo
 번들 ID: io.github.jinnyday0719.macbookduo
 
-Stage 1 소스와 앱은 그대로 보존합니다. 새 앱은 Sources/MacBookDuo의
-독립 타깃이며 Stage 1의 센서와 셰이더를 복사한 시점부터 별도로 개발합니다.
+공개 저장소에는 배포 대상인 MacBookDuo 타깃만 포함합니다.
 
 ## 빌드
 
@@ -13,7 +12,6 @@ zsh build-app.sh
 ```
 
 결과: Build/MacBook Duo.app
-Stage 1 실행: swift run MacBookDuoStage1
 
 ## 현재 동작
 

@@ -8,7 +8,6 @@ let package = Package(
         .macOS(.v13)
     ],
     products: [
-        .executable(name: "MacBookDuoStage1", targets: ["MacBookDuoStage1"]),
         .executable(name: "MacBookDuo", targets: ["MacBookDuo"])
     ],
     targets: [
@@ -16,13 +15,6 @@ let package = Package(
             name: "MacBookDuo",
             path: "Sources/MacBookDuo",
             swiftSettings: [.swiftLanguageMode(.v5)]
-        ),
-        .executableTarget(
-            name: "MacBookDuoStage1",
-            path: "Sources/MacBookDuoStage1",
-            swiftSettings: [
-                .swiftLanguageMode(.v5)
-            ]
         )
     ]
 )

@@ -60,7 +60,7 @@ final class FoldRendererView: MTKView, MTKViewDelegate {
         colorPixelFormat = .bgra8Unorm_srgb
         framebufferOnly = true
         clearColor = MTLClearColor(red: 0.002, green: 0.004, blue: 0.008, alpha: 1)
-        // Stage 1 targets the MacBook Pro built-in ProMotion panel.
+        // Match the built-in MacBook Pro ProMotion panel.
         preferredFramesPerSecond = 120
         enableSetNeedsDisplay = false
         isPaused = false
